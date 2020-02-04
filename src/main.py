@@ -35,6 +35,10 @@ def main():
     if matrix == None:
          utils.error('File error.')
     #End of error checking
+
+
+    sol = func.solve(matrix, n, px, py)
+    print("{:0.2f}".format(round(sol,2)))
     
 
 
